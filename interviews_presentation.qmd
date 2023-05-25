@@ -1,0 +1,213 @@
+---
+title: "Weapons of Mass Destruction"
+subtitle: "Foreign Policy Analysis"
+author: "Cameron Wimpy"
+format:
+  revealjs: 
+    theme: [night, custom.scss]
+    logo: astate2.png
+    footer: "Foreign Policy Analysis: The Historical Context"
+    chalkboard: true
+editor: visual
+date: "February 7, 2023"
+---
+
+# [Let's Talk]{style="color: red;"} {style="text-align: center;"}
+
+::: notes
+Exam 1 was supposed to be this week. How do you all feel about dropping down to two exams total given the time we have lost? If we do that, each one would be worth 30% of the grade. Or we could do them at 25% each and increase the debate amount to 40% total. If we do this the exam will be on 2/23.
+:::
+
+# [Debates]{style="color: red;"} {style="text-align: center;"}
+
+::: notes
+I wanted to share a bit about the debates. Each debater will get 8 minutes to present with a 4 minute rebuttal. You do not have to make slides or anything like that. There will be a series of topics and we will draw for who will go against who. One person will go against me if we keep this current number of students. If that is the case there will be 8 total topics and we will draw one day.
+:::
+
+# [Current Events]{style="color: red;"} {style="text-align: center;"}
+
+## Balloon Wars
+
+### **China condemns US 'attack' on surveillance balloon as 'overreaction'**
+
+![](https://storage.googleapis.com/afs-prod/media/dd7715eb81514ad9a155bc9a7ee6cf47/2576.webp){fig-align="center"}
+
+::: notes
+China condemned the U.S. military's decision on Saturday to shoot down a suspected [Chinese surveillance balloon](https://thehill.com/policy/defense/3844089-why-the-us-waited-to-shoot-down-the-china-balloon/) that flew over the U.S. last week.
+
+"China strongly disapproves of and protests against the U.S. attack on a civilian unmanned airship by force," the Chinese Foreign Ministry said in a statement on Sunday morning, per the [South China Morning Post](https://www.scmp.com/news/world/united-states-canada/article/3209126/joe-biden-says-us-going-take-care-chinese-balloon?module=lead_hero_story&pgtype=homepage). 
+
+"The U.S.'s use of force is a clear overreaction and a serious violation of international practice," the ministry added, noting that Beijing reserves the right to make "further responses that are necessary."
+
+A "high-altitude surveillance balloon" first entered U.S. airspace in Alaska on Jan. 28. After briefly traveling through Canadian airspace, it returned to the U.S. via Idaho on Jan. 31 and spent the rest of the week traversing the country.
+
+Beijing confirmed on Friday that [the balloon](https://thehill.com/policy/national-security/3843607-what-are-spy-balloons-and-what-is-their-purpose/) was Chinese but claimed that it was primarily used for meteorological research and had been blown off course.
+
+"The Chinese side regrets the unintended entry of the airship into US airspace due to force majeure," a ministry spokesperson said.
+
+However, American officials have maintained that the balloon was surveilling "strategic sites" within the U.S., leading Secretary of State [Antony Blinken ](https://thehill.com/people/antony-blinken/)to postpone his trip to Beijing on Friday.
+
+"We have noted the \[People's Republic of China\] statement of regret, but the presence of this balloon in our airspace is a clear violation of our sovereignty as well as international law, and it is unacceptable that this has occurred," a senior State Department official said.
+
+The Chinese Foreign Ministry hit back at the U.S. on Saturday in a statement, alleging that some politicians and the media have "hyped" up the situation in order to "attack and smear China."
+
+The U.S. military waited to shoot down the balloon until Saturday afternoon, when it was over water off the coast of South Carolina, due to safety concerns. It is now [working to recover](https://thehill.com/policy/defense/3844123-us-works-to-recover-debris-intel-from-downed-chinese-spy-balloon/) debris and intelligence information, according to officials.
+:::
+
+## Balloon Wars
+
+### **How a Chinese Spy Balloon Blew Up a Key U.S. Diplomatic Trip**
+
+![](https://www.nationalreview.com/wp-content/uploads/2023/02/blinken.jpg?w=1592){fig-align="center"}
+
+::: notes
+U.S. Secretary of State Antony Blinken has [postponed](https://www.cnbc.com/2023/02/03/us-secretary-of-state-blinken-postpones-high-stakes-trip-to-china-after-us-discovers-suspected-spy-balloon-.html) a [critical diplomatic visit](https://foreignpolicy.com/2023/02/01/blinken-china-visit-beijing-stabilize-ties/) to Beijing this weekend following the revelation of a Chinese surveillance balloon, carrying equipment roughly the size of [three buses](https://twitter.com/CBSNews/status/1621604619976642560), floating over Montana close to sensitive nuclear sites. The Biden administration says it is monitoring the balloon closely, has neutralized any intelligence threat it poses, and is considering how to bring it down, since there are concerns it could fall on inhabited areas.
+
+High-altitude balloons might seem unimpressive compared with satellite imagery that can already pick out minute details from way up in the heavens. But balloons, as analyst [William Kim](https://twitter.com/TheKimulation/status/1544527315383853056) pointed out last year, have several advantages over satellites. They're cheap, they can last for months, they can loiter in place rather than following the predictable tracks of satellites, and they're surprisingly hard to take down.
+
+Previously, all of that was negated by one obvious factor: They were at the mercy of the wind. But new machine-learning techniques now allow balloons to use air currents to steer themselves in set directions, making the [technology](https://www.bbc.com/future/article/20210222-how-googles-hot-air-balloon-surprised-its-creators) much more useful.
+
+------------------------------------------------------------------------
+
+#### **Why now?**
+
+Although balloons are a powerful potential surveillance tool, it's odd that Beijing would do something this provocative just before a key U.S. diplomatic trip, especially since China has been pushing to [repair relations](https://foreignpolicy.com/2022/11/16/china-xi-biden-meeting-g20-taiwan/) with the United States post-pandemic. China certainly has a strong interest in monitoring U.S. nuclear sites, and Washington has been closely tracking China's own nuclear expansion. But the United States is also full of sensitive [military sites](https://broadbandusa.ntia.doc.gov/resources/federal/federal-permitting/department-defense-dod) of one kind or another, and an off-course balloon would be more likely than not to stray close to one.
+
+It's possible that this was a deliberate provocation by some anti-U.S. faction within the Chinese military or security state---perhaps in response to being weakened in the recent Chinese push for better relations with Washington. But it's more likely that this was a [simple blunder](https://www.cnn.com/2023/02/02/asia/us-china-spy-balloon-mission-intl-hnk-ml/index.html)---that an existing surveillance program got detected or possibly even that the balloon wasn't intended to enter U.S. territory at all.
+
+It's very likely that China has been using this technique for a while and that the United States was aware of it but diplomatically chose not to respond. At a [briefing](https://www.defense.gov/News/Transcripts/Transcript/Article/3287204/senior-defense-official-holds-a-background-briefing-on-high-altitude-surveillan/) on Thursday evening, a U.S. Defense Department spokesperson confirmed that such intrusions have happened before: "It is not the first time that you had a balloon of this nature cross over the continental United States. It has happened a handful of other times over the past few years, to include before this administration." The triggering factor for this incident seems to be that the balloon drifted low enough to be detectable by civilians, meaning that U.S. authorities had to respond.
+
+------------------------------------------------------------------------
+
+#### **How will China respond?**
+
+Beijing has said the balloon is a [weather balloon](https://www.politico.com/news/2023/02/03/china-spy-balloon-us-airspace-00081073) that drifted off course, affected by the westerlies, and that it "regrets the unintentional entry" of the balloon into U.S. airspace. It's very unlikely that it will switch positions on that---it's hard for Beijing to admit fault publicly. It's possible that there might be some behind-closed-doors admission or apology.
+
+But it's also easy to see how, from a Chinese perspective, the United States might look hypocritical here. After all, Washington and its allies have routinely used a [range of surveillance](https://irp.fas.org/news/1999/06/990602-275397.htm) techniques for decades to closely observe Chinese territory, from satellite imagery to undersea monitoring. That may already include spy balloons, which the Pentagon has been working on since [at least 2020](https://www.politico.com/news/2022/07/05/u-s-militarys-newest-weapon-against-china-and-russia-hot-air-00043860). U.S. experts have been [thinking for years](https://apps.dtic.mil/sti/pdfs/ADA434352.pdf) about the potential uses of near-space.
+
+Calling off or postponing Blinken's trip at the last moment could strengthen anti-U.S. hard-liners in the Chinese leadership, who will read this as showing that Washington wasn't ever serious about trying to rebuild a working relationship. Even those more sympathetic toward U.S. diplomatic efforts may see this as a sign that Washington is trapped by domestic anti-China politics.
+
+------------------------------------------------------------------------
+
+#### **What happens next?**
+
+This is another confirmation that we're in the early days of Cold War 2.0, where mutual surveillance was one of the tensest issues. Take the 1960 U-2 [spy plane incident](https://history.state.gov/milestones/1953-1960/u2-incident), in which the United States was caught in an embarrassing lie after the Soviets not only shot down a supposedly undetectable plane but captured its pilot alive and had him confess on national television. That came at a relatively amenable stage of U.S.-Soviet relations and scrapped efforts at disarmament talks. In an eerie echo of today, the United States, before the revelation of the pilot's capture, claimed that the plane had been conducting meteorological work and had accidentally entered Soviet territory.
+
+There's no Chinese balloon pilot who can be produced here, but some of the consequences may depend on how the balloon is brought down. Balloons like this are surprisingly tough and often need explosive force to destroy, which could leave its nature usefully ambiguous. If the United States manages to down it and retrieve surveillance equipment that's obviously for military---not meteorological---monitoring, however, things will become more embarrassing for Beijing.
+
+Either way, this is fuel for the strong [belief in Congress](https://twitter.com/SpeakerMcCarthy/status/1621311735914266626) that China is a major threat to the United States. One U.S. official [stated](https://abcnews.go.com/Politics/chinese-spy-balloon-surveilling-us-senior-official/story?id=96860718) that Blinken's visit was postponed, not canceled, and that Blinken didn't want the balloon to dominate talks. That seems likely: Washington has a keen interest in reading the mood on the ground in China following the tumult of last year's protests and reversals of its zero-COVID policies. But an already cold relationship between the world's two largest powers just got a bit frostier.
+:::
+
+# Weapons of Mass Destruction (WMD)
+
+## Weapons of Mass Destruction (WMD)
+
+-   What do we mean by WMD?
+
+![](https://media2.giphy.com/media/oe33xf3B50fsc/giphy.gif){fig-align="center"}
+
+::: notes
+Weapons of mass destruction (WMDs) constitute a class of weaponry with the potential to, in a single moment, kill millions of civilians, jeopardize the natural environment, and fundamentally alter the world and the lives of future generations through their catastrophic effects. The United Nations has sought to eliminate all categories of WMDs since its establishment, and the First Committee of the General Assembly has from the beginning been mandated to deal with disarmament, global challenges and threats to peace that affect the international community. Other UN bodies tasked with negotiating the elimination of WMDs include the Conference on Disarmament along with its predecessors, and the Disarmament Commission.
+
+A number of multilateral treaties exist to outlaw several classes of WMDs. These treaties include the Biological Weapons Convention (BWC) and the Chemical Weapons Convention (CWC). Multilateral treaties targeting the proliferation, testing and achieving progress on the disarmament of nuclear weapons include the Treaty on the Non-Proliferation of Nuclear Weapons (NPT), the Treaty Banning Nuclear Weapon Tests In The Atmosphere, In Outer Space And Under Water, also known as the Partial Test Ban Treaty (PTBT), and the Comprehensive Nuclear-Test-Ban Treaty, which was signed in 1996 but has yet to enter into force. Several treaties also exist to prevent the proliferation of missiles and related technologies, which can be used as a vehicle to deliver WMD payloads. These treaties include the Hague Code of Conduct (HCOC) and the Missile Technology Control Regime (MTCR).
+
+*WMDs are atomic explosive weapons, radio active material weapons, lethal chemical and biological weapons, and any weap- ons developed in the future which have characteristics comparable in destructive effect to those of the atomic bomb or other weapons mentioned above.*
+:::
+
+## **Why Do They Matter?**
+
+::: columns
+::: {.column width="35%"}
+::: fragment
+"*Sticks and stones*" ![](https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg){fig-align="left" width="300"}
+:::
+:::
+
+::: {.column width="65%"}
+::: fragment
+"*Bomb them back to the stone age*" ![](https://media.newyorker.com/photos/5bd3416289a5e048821cffa0/4:3/w_2094,h_1571,c_limit/950619_ra583.jpg){fig-align="right" width="500"}
+:::
+:::
+:::
+
+::: notes
+I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones". 
+:::
+
+## Origins
+
+::: columns
+::: {.column width="60%"}
+::: incremental
+-   German scientists in 1930s
+-   Einstein's Letter
+-   Manhattan Project
+:::
+:::
+
+::: {.column width="40%"}
+::: fragment
+![](https://www.atomicarchive.com/history/trinity/img/manhattan-project-map.svg){fig-align="right" width="400"}
+:::
+:::
+:::
+
+::: notes
+A discovery by nuclear physicists in a laboratory in Berlin, Germany, in 1938 made the first atomic bomb possible, after Otto Hahn, Lise Meitner and Fritz Strassman discovered nuclear fission.
+
+When an atom of radioactive material splits into lighter atoms, there's a sudden, powerful release of energy. The discovery of nuclear fission opened up the possibility of nuclear technologies, including weapons.
+
+Atomic bombs are weapons that get their explosive energy from fission reactions. Thermonuclear weapons, or hydrogen bombs, rely on a combination of nuclear fission and nuclear fusion. Nuclear fusion is another type of reaction in which two lighter atoms combine to release energy.
+
+The Manhattan Project was the code name for the American-led effort to develop a functional atomic bomb during World War II. The Manhattan Project was started in response to fears that German scientists had been working on a weapon using nuclear technology since the 1930s.
+
+On December 28, 1942, President Franklin D. Roosevelt authorized the formation of the Manhattan Project to bring together various scientists and military officials working on nuclear research.
+
+Much of the work was performed in Los Alamos, New Mexico, under the direction of theoretical physicist J. Robert Oppenheimer. On July 16, 1945, in a remote desert location near Alamogordo, New Mexico, the first atomic bomb was successfully detonated---the Trinity Test. It created an enormous mushroom cloud some 40,000 feet high and ushered in the Atomic Age.
+
+Scientists at Los Alamos had developed two distinct types of atomic bombs by 1945---a uranium-based design called "the Little Boy" and a plutonium-based weapon called "the Fat Man."
+:::
+
+## Trinity Test
+
+{{< video https://www.youtube.com/embed/7dfK9G7UDok width="100%" height="85%" >}}
+
+## The Destroyer of Worlds
+
+{{< video https://www.youtube.com/embed/cY8q1ky3dLY width="100%" height="85%" >}}
+
+## Using the Bomb
+
+-   Hiroshima and Nagasaki
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/54/Atomic_bombing_of_Japan.jpg){fig-align="center" width="750"}
+
+::: notes
+While the war in Europe had ended in April, fighting in the Pacific continued between Japanese forces and U.S. troops. In late July, President Harry Truman called for Japan's surrender with the Potsdam Declaration. The declaration promised "prompt and utter destruction" if Japan did not surrender.
+
+On August 6, 1945, the United States dropped its first atomic bomb from a B-29 bomber plane called the Enola Gay on Japanese city of Hiroshima. The "Little Boy" exploded with about 13 kilotons of force, leveling five square miles of the city and killing 80,000 people instantly. Tens of thousands more would later die from radiation exposure.
+
+When the Japanese did not immediately surrender, the United States dropped a second atomic bomb three days later on the city of Nagasaki. The "Fat Man" killed an estimated 40,000 people on impact.
+
+Nagasaki had not been the primary target for the second bomb. American bombers initially had targeted the city of Kokura, where Japan had one of its largest munitions plants, but smoke from firebombing raids obscured the sky over Kokura. American planes then turned toward their secondary target, Nagasaki. Citing the devastating power of "a new and most cruel bomb," Japanese Emperor Hirohito announced his country's surrender on August 15, ending World War II.
+:::
+
+## The United Nations
+
+{{< video https://youtu.be/FnQESSTouNU width="100%" height="85%" >}}
+
+::: notes
+In an effort to maintain world peace, the Allies formed the United Nations, which officially came into existence on October 24th 1945, and adopted the Universal Declaration of Human Rights in 1948 as a common standard for all member nations. The great powers that were the victors of the war---France, China, the United Kingdom, the Soviet Union and the United States---became the permanent members of the UN's Security Council.\[8\] The five permanent members remain so to the present, although there have been two seat changes, between the Republic of China and the People's Republic of China in 1971, and between the Soviet Union and its successor state, the Russian Federation, following the dissolution of the Soviet Union in 1991. The alliance between the Western Allies and the Soviet Union had begun to deteriorate even before the war was over.
+:::
+
+## Superpowers
+
+![](https://pbs.twimg.com/media/CFxNT-SWYAEHrQa.jpg){fig-align="center"}
+
+::: notes
+At the end of the war, millions of people were dead and millions more homeless, the European economy had collapsed, and much of the European industrial infrastructure had been destroyed. The Soviet Union, too, had been heavily affected. In response, in 1947, U.S. Secretary of State George Marshall devised the "European Recovery Program", which became known as the Marshall Plan. Under the plan, during 1948--1952 the United States government allocated US\$13 billion (US\$146 billion in 2018 dollars) for the reconstruction of Western Europe.
+
+[World War II](https://en.wikipedia.org/wiki/World_War_II) was the [deadliest military conflict in history](https://en.wikipedia.org/wiki/List_of_wars_by_death_toll "List of wars by death toll"). An estimated total of 70--85 million people perished, or about 3% of the 2.3 billion (est.) people on Earth in 1940.^[\[1\]](https://en.wikipedia.org/wiki/World_War_II_casualties#cite_note-1)^ Deaths directly caused by the war (including military and civilian fatalities) are estimated at 50--56 million, with an additional estimated 19--28 million deaths from war-related disease and famine. [Civilian](https://en.wikipedia.org/wiki/Civilian "Civilian") deaths totaled 50--55 million. [Military deaths](https://en.wikipedia.org/wiki/Casualty_(person) "Casualty (person)")from all causes totaled 21--25 million, including deaths in captivity of about 5 million [prisoners of war](https://en.wikipedia.org/wiki/Prisoners_of_war "Prisoners of war"). More than half of the total number of casualties are accounted for by the dead of the [Republic of China](https://en.wikipedia.org/wiki/Republic_of_China_(1912%E2%80%931949) "Republic of China (1912–1949)") and of the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union "Soviet Union"). The tables below give a detailed country-by-country count of human losses. Statistics on the number of military wounded are included whenever available.
+:::
+
+# [Thoughts/Questions?]{style="color: red;"} {style="text-align: center;"}

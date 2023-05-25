@@ -1,0 +1,106 @@
+---
+main_topsize: 0.08 #percent coverage of the poster
+main_bottomsize: 0.09
+#ESSENTIALS
+title: '**Local Jurisdiction Website Coding: Does Rurality Matter?**'
+author:
+  - name: '**Ellie Foote**'
+    affil: 3
+    email: 'ellie.foote@smail.astate.edu'
+    orcid: ''
+  - name: '**William P. McLean**'
+    affil: 2
+    email: 'wmclean@astate.edu'
+    orcid: ''
+  - name: '**Cameron Wimpy**'
+    affil: 1
+    main: true
+    email: 'cwimpy@astate.edu'
+    orcid: '0000-0002-2049-5229'
+    twitter: 'camwimpy'
+affiliation:
+  - num: 1
+    address: Former Student in Political Science, Arkansas State University
+  - num: 2
+    address: Associate Vice Chancellor for Faculty Relations, Arkansas State University
+  - num: 3
+    address: Chair, Department of Political Science, Arkansas State University
+main_picwidth: "25%"
+main_findings:
+  - "Most **rural** election jurisdictions **offer far less** to voters in terms on online lookup tools. We should **priortize** helping them provide more **access and information**."
+  - '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/frame.svg){.main_pic}'
+logoleft_name: '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/ps_astate.png){.main-img-left}'
+logoright_name: '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/esra-site-banner.png){.main-img-right}'
+main_textsize: "170px"  
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    number_sections: false
+# bibliography: power.bib
+# csl: american-political-science-review.csl
+link-citations: true
+title_textsize: "100"
+author_textsize: "40"
+affiliation_textsize: "30"
+primary_colour: "#000000"
+secondary_colour: "#cc092f"
+accent_colour: "#cc0000"
+poster_width:	"36in"
+poster_height:	"48in"
+caption_textsize: "25pt"
+body_textsize: "28pt"
+reference_textsize: "28pt"
+---
+
+# Abstract
+
+In this poster we plan to present preliminary results from a local jurisdictional website coding process that will eventually cover all fifty states plus the District of Columbia. We code each website, if the jurisdiction has one, for a range of election administration outcomes. The process is similar to that for the EPI at the state level. It includes many more indicators and begins the process of allowing for a systematic examination of whether rurality affects the quality of services offered on the website. The poster will present the coding design, initial findings, and additional details for researchers who may intend to use the data once the project is complete.
+
+# Motivation
+
+Our goal is to both collect data for all election jurisdictions and determine to what degree rurality impacts online accessibility. The data are all avaialble on the project Github, and we plan to expand the coding in the future. 
+
+# Progress
+
+So far we have fully coded 34 states, which amounts to about 2,102 counties. Coding continues and will resume in earnest once the summer term begins. 
+
+
+
+# Challenges
+
+To examine the prevalence of both experiments and mentions of statistical power we conducted a systematic review of all articles appearing in the _American Journal of Political Science_ (AJPS), the _American Political Science Review_ (APSR), the _Journal of Politics_ (JOP), and _Public Opinion Quarterly_ (POQ) from 2010 through 2019.
+
+There were two steps to the coding. First, we flagged articles that analyzed data from randomized experiments.^[We excluded articles that employed "natural experiments," "quasi-experiments," "thought experiment," or any other type of experiment not directly under the control of the researcher(s).] Next, we searched for mentions of "statistical power" among these articles. We included any mention of statistical power relevant to the experimental design or analysis.^[We searched for "power" and did not code mentions of "political power," "powerful predictors," "explanatory power," etc. in terms of a covariate, and unrelated usages of the term were excluded.]  
+
+The results of this simple survey revealed that only 25% of experimental articles in leading journals refer to statistical power! The findings are summarized in Figure. 
+
+The clear lack of attention to statistical power has had deleterious consequences for the application of experiments in political science.
+
+- The first issue relates to poor experimental design and analyses. 
+- Second, this lack of understanding creates an atmosphere of well-intended but ill-conceived criticisms of good designs. 
+
+At best, the 75% of articles that fail to include discussions of power leave out important information about the uncertainty of the main findings. Our literature survey suggests that, while many political science researchers have a vague notion of power, few discuss it openly and the proportion that clearly state the findings from power analyses is far smaller. Either we are hiding our vast wells of knowledge from each other, or <span style="color: #0051BA;">**_We may not know as much as we think._**</span>
+
+# When Should We Use Power Analyses?
+
+The short answer: always. Given sufficient information, power analyses reveal:
+
+1. <span style="color: #0051BA;">**_How large does my sample need to be to have sufficient power?_**</span>
+2. <span style="color: #0051BA;">**_How much power do I have?_**</span>
+3. <span style="color: #0051BA;">**_How far off am I?_**</span>
+
+In the absence of previous research or a pilot study, one cannot answer the first question. This doesn't make power analyses pointless. The second and third questions provide critical information to the researcher and the reader. The answer to question 2 determines how likely an observed effect is to be replicated and the answer to question 3 sheds light on the types of revisions the analyst should make in light of null results. 
+
+
+Consider an experiment conducted by to examine the effects of the racial and religious identity of terrorism victims on public perceptions of terrorism. A group of 309 voting age U.S. MTurk workers were randomized into one of four conditions where they read about an identical terrorist attack that occurred in Romania, Albania, Zambia, or Guinea. 
+ predicted that the modal respondent would express more concern for victims they viewed as demographically similar to themselves (personal proximity) based on the imputed characteristics intuited from the location of the attack. That is, the white Christians in the sample would care more about attacks against white victims (Romania and Albania) and Christian victims (Romania and Zambia) causing the means of perceived threat (measured 0 to 10) to be higher in the proximate conditions. Their results are presented in Figure. They find a null effect for religion and a positive, but modest, effect for race.
+
+
+
+# Acknowledgements
+
+We thank Hye Sun Choi, Garrett Partain, and Kaleb Webb for valuable research assistance on this project. Funding for this project was provided by the MIT Election Data and Science Lab in partnership with the Pew Charitable Trusts. We thank them for their support.
+
+
+<!-- pagedown::chrome_print("esra-2023-poster.Rmd") -->
