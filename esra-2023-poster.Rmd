@@ -99,7 +99,7 @@ Our goal is to both collect data for all election jurisdictions and determine to
 
 # Progress
 
-So far we have fully coded 34 states, which amounts to about 2,102 counties. Coding continues and will resume in earnest once the summer term begins. Coders are going
+So far we have fully coded 34 states, which amounts to about 2,102 counties. Coding continues and will resume in earnest once the summer term begins. Coders are being trained for consistency and collaborate to adjudicate any diagreement or challenging cases. 
 
 # Defining Rural
 
@@ -129,7 +129,7 @@ ggsave(filename = "ruc_map.png", plot = p, width = 14, height = 14,
        units = "in", dpi = 600)
 ```
 <center>
-![](ruc_map.png){width=75%}
+![](ruc_map.png){width=60%}
 </center>
 
 # Acknowledgements
