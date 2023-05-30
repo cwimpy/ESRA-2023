@@ -1,0 +1,46 @@
+item,ruc,level
+Election Schedule,1,48.74
+Election Schedule,2,46.86
+Election Schedule,3,43.15
+Election Schedule,4,44.07
+Election Schedule,5,36.11
+Election Schedule,6,30.58
+Election Schedule,7,19.93
+Election Schedule,8,22.82
+Election Schedule,9,14.67
+Absentee,1,73.53
+Absentee,2,70.29
+Absentee,3,69.76
+Absentee,4,70.34
+Absentee,5,63.89
+Absentee,6,52.88
+Absentee,7,51.96
+Absentee,8,49.66
+Absentee,9,41.62
+Location Lookup,1,84.87
+Location Lookup,2,75.73
+Location Lookup,3,76.21
+Location Lookup,4,73.73
+Location Lookup,5,75.00
+Location Lookup,6,63.66
+Location Lookup,7,58.17
+Location Lookup,8,46.31
+Location Lookup,9,35.93
+Poll Worker Application,1,59.66
+Poll Worker Application,2,50.63
+Poll Worker Application,3,38.71
+Poll Worker Application,4,38.98
+Poll Worker Application,5,37.50
+Poll Worker Application,6,20.80
+Poll Worker Application,7,12.75
+Poll Worker Application,8,9.40
+Poll Worker Application,9,5.09
+Registration Status,1,81.51
+Registration Status,2,78.66
+Registration Status,3,75.81
+Registration Status,4,78.81
+Registration Status,5,69.44
+Registration Status,6,64.91
+Registration Status,7,61.44
+Registration Status,8,51.68
+Registration Status,9,46.11
