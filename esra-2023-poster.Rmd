@@ -28,7 +28,7 @@ affiliation:
 main_picwidth: "25%"
 main_findings:
   - "Most **rural** election jurisdictions **offer far less** to voters in terms on online lookup tools. We should **priortize** helping them provide more **access and information**."
-  - '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/frame.svg){.main_pic}'
+  - '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/7a4dbe78bd1272eaaec2603d98d1d930b1489c28/images/frame.svg){.main_pic}'
 logoleft_name: '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/ps_astate.png){.main-img-left}'
 logoright_name: '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/esra-site-banner.png){.main-img-right}'
 main_textsize: "170px"  
