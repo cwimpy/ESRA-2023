@@ -33,7 +33,7 @@ Here are the required style attributes for css to make this poster work :)
 -->
 <style>
 @page {
-size: 36in 48in;
+size: 48in 36in;
 margin: 0;
 padding: 0;
 background-color: #ffffff;
@@ -41,8 +41,8 @@ background-color: #ffffff;
 body {
 margin: 0px;
 padding: 0px;
-width: 36in;
-height: 48in;
+width: 48in;
+height: 36in;
 text-align: justify;
 font-size: 28pt;
 background-color: #FFFFFF;
@@ -126,8 +126,8 @@ float: left;
 padding: 0px;
 }
 .outer {
-width: 36in;
-height: 48in;
+width: 48in;
+height: 36in;
 -webkit-column-count: 2; /* Chrome, Safari, Opera */
 -moz-column-count: 2; /* Firefox */
 column-count: 2;
@@ -206,10 +206,10 @@ color: #000000;
 text-align: left;
 }
 .main {
-width: calc(36in / 2);
-height: 48in;
+width: calc(48in / 2);
+height: 36in;
 position: absolute;
-margin-left: calc(36in / 4);
+margin-left: calc(48in / 4);
 background-color: #000000;
 color: #FFFFFF90;
 font-family: Special Elite;
@@ -255,8 +255,8 @@ font-size: 5px;
 text-decoration: none;
 }
 .poster_wrap {
-width: 36in;
-height: 48in;
+width: 48in;
+height: 36in;
 padding: 0cm;
 background-color: #ffffff;
 }
@@ -321,27 +321,9 @@ span > #tab:mytable {
 <h1>Progress</h1>
 <p>So far we have fully coded 34 states, which amounts to about 2,102 counties. Coding continues and will resume in earnest once the summer term begins.</p>
 </div>
-<div id="challenges" class="section level1">
-<h1>Challenges</h1>
-<p>To examine the prevalence of both experiments and mentions of statistical power we conducted a systematic review of all articles appearing in the <em>American Journal of Political Science</em> (AJPS), the <em>American Political Science Review</em> (APSR), the <em>Journal of Politics</em> (JOP), and <em>Public Opinion Quarterly</em> (POQ) from 2010 through 2019.</p>
-<p>There were two steps to the coding. First, we flagged articles that analyzed data from randomized experiments.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Next, we searched for mentions of “statistical power” among these articles. We included any mention of statistical power relevant to the experimental design or analysis.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
-<p>The results of this simple survey revealed that only 25% of experimental articles in leading journals refer to statistical power! The findings are summarized in Figure.</p>
-<p>The clear lack of attention to statistical power has had deleterious consequences for the application of experiments in political science.</p>
-<ul>
-<li>The first issue relates to poor experimental design and analyses.</li>
-<li>Second, this lack of understanding creates an atmosphere of well-intended but ill-conceived criticisms of good designs.</li>
-</ul>
-<p>At best, the 75% of articles that fail to include discussions of power leave out important information about the uncertainty of the main findings. Our literature survey suggests that, while many political science researchers have a vague notion of power, few discuss it openly and the proportion that clearly state the findings from power analyses is far smaller. Either we are hiding our vast wells of knowledge from each other, or <span style="color: #0051BA;"><strong><em>We may not know as much as we think.</em></strong></span></p>
-</div>
-<div id="when-should-we-use-power-analyses" class="section level1">
-<h1>When Should We Use Power Analyses?</h1>
-<p>The short answer: always. Given sufficient information, power analyses reveal:</p>
-<ol style="list-style-type: decimal">
-<li><span style="color: #0051BA;"><strong><em>How large does my sample need to be to have sufficient power?</em></strong></span></li>
-<li><span style="color: #0051BA;"><strong><em>How much power do I have?</em></strong></span></li>
-<li><span style="color: #0051BA;"><strong><em>How far off am I?</em></strong></span></li>
-</ol>
-<p>In the absence of previous research or a pilot study, one cannot answer the first question. This doesn’t make power analyses pointless. The second and third questions provide critical information to the researcher and the reader. The answer to question 2 determines how likely an observed effect is to be replicated and the answer to question 3 sheds light on the types of revisions the analyst should make in light of null results.</p>
+<div id="defining-rural" class="section level1">
+<h1>Defining Rural</h1>
+<p>T</p>
 <p>Consider an experiment conducted by to examine the effects of the racial and religious identity of terrorism victims on public perceptions of terrorism. A group of 309 voting age U.S. MTurk workers were randomized into one of four conditions where they read about an identical terrorist attack that occurred in Romania, Albania, Zambia, or Guinea.
 predicted that the modal respondent would express more concern for victims they viewed as demographically similar to themselves (personal proximity) based on the imputed characteristics intuited from the location of the attack. That is, the white Christians in the sample would care more about attacks against white victims (Romania and Albania) and Christian victims (Romania and Zambia) causing the means of perceived threat (measured 0 to 10) to be higher in the proximate conditions. Their results are presented in Figure. They find a null effect for religion and a positive, but modest, effect for race.</p>
 </div>
@@ -349,13 +331,6 @@ predicted that the modal respondent would express more concern for victims they 
 <h1>Acknowledgements</h1>
 <p>We thank Hye Sun Choi, Garrett Partain, and Kaleb Webb for valuable research assistance on this project. Funding for this project was provided by the MIT Election Data and Science Lab in partnership with the Pew Charitable Trusts. We thank them for their support.</p>
 <!-- pagedown::chrome_print("esra-2023-poster.Rmd") -->
-</div>
-<div class="footnotes footnotes-end-of-document">
-<hr />
-<ol>
-<li id="fn1"><p>We excluded articles that employed “natural experiments,” “quasi-experiments,” “thought experiment,” or any other type of experiment not directly under the control of the researcher(s).<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>We searched for “power” and did not code mentions of “political power,” “powerful predictors,” “explanatory power,” etc. in terms of a covariate, and unrelated usages of the term were excluded.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
 
 </div>
