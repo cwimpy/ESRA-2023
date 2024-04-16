@@ -5,11 +5,11 @@ main_bottomsize: 0.09
 title: '**Local Jurisdiction Website Coding: Does Rurality Matter?**'
 author:
   - name: '**Ellie Foote**'
-    affil: 3
+    affil: 2
     email: 'ellie.foote@smail.astate.edu'
     orcid: ''
   - name: '**William P. McLean**'
-    affil: 2
+    affil: 3
     email: 'wmclean@astate.edu'
     orcid: ''
   - name: '**Cameron Wimpy**'
@@ -20,14 +20,14 @@ author:
     twitter: 'camwimpy'
 affiliation:
   - num: 1
-    address: Former Student in Political Science, Arkansas State University
-  - num: 2
-    address: Associate Vice Chancellor for Faculty Relations, Arkansas State University
-  - num: 3
     address: Chair, Department of Political Science, Arkansas State University
+  - num: 2
+    address: Former Student in Political Science, Arkansas State University
+  - num: 3
+    address: Associate Vice Chancellor for Faculty Relations, Arkansas State University
 main_picwidth: "25%"
 main_findings:
-  - "Most **rural** election jurisdictions **offer far less** to voters in terms on **online** tools. States and jurisdictions should **priortize** helping them provide more **access and information** to their voters."
+  - "Most **rural** election jurisdictions **offer far less** to voters in terms of **online** tools. States and jurisdictions should **priortize** helping to provide more **access and information** to their voters."
   - '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/94ce2ebaa3776fad6949632e2edd7c16424fc9b3/images/frame.svg){.main_pic}'
 logoleft_name: '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/ps_astate.png){.main-img-left}'
 logoright_name: '![](https://raw.githubusercontent.com/cwimpy/ESRA-2023/main/images/esra-site-banner.png){.main-img-right}'
@@ -97,7 +97,7 @@ items <- read_csv("items.csv")
 
 # Abstract
 
-In this poster we plan to present preliminary results from a local jurisdictional website coding process that will eventually cover all fifty states plus the District of Columbia. We code each website, if the jurisdiction has one, for a range of election administration outcomes. The process is similar to that for the EPI at the state level. It includes many more indicators and begins the process of allowing for a systematic examination of whether rurality affects the quality of services offered on the website. The poster will present the coding design, initial findings, and additional details for researchers who may intend to use the data once the project is complete.
+In this poster we present preliminary results from a local jurisdictional website coding process that will eventually cover all fifty states plus the District of Columbia. We code each website, if the jurisdiction has one, for a range of election administration outcomes. The process is similar to that for the EPI at the state level. It includes many more indicators and begins the process of allowing for a systematic examination of whether rurality affects the quality of services offered on the jurisdiction's website. The project is hosted on Github and can be tracked in real time. Scan the QR code to learn more. 
 
 # Motivation & Progress
 
@@ -109,7 +109,7 @@ Our goal is to both collect data for all election jurisdictions and determine to
 
 # Defining Rural
 
-There are many definitions of rural and little agreement across disciplines and government agencies on exactly what makes a location rural [@Waldorf:2015]. Given this issue, we fully expect that there may be some disagreement on whether specific counties are urban or rural. For our purposes we are using the Rural-Urbam continuum codes from the USDA ERS [@USDA:2013]. "The 2013 Rural-Urban Continuum Codes form a classification scheme that distinguishes metropolitan counties by the population size of their metro area, and nonmetropolitan counties by degree of urbanization and adjacency to a metro area." Counties are coded on 1-9 scale where one is the most urban and 9 is the most rural. Few reliable scales of rurality exist below the county level. This create particular challenges for election jurisdictions that operate at the sub-county level, but our plan will be to link these to the USDA's Rural-Urban Commuting Area (RUCA) codes [@Cromartie:2008]. The RUC codes are shown in the map below.
+There are many definitions of rural and little agreement across disciplines and government agencies on exactly what constitutes a rural location [@Waldorf:2015]. Given this issue, we fully expect that there may be some disagreement on whether specific counties are urban or rural. For our purposes we are using the Rural-Urbam continuum codes from the USDA ERS [@USDA:2013]. "The 2013 Rural-Urban Continuum Codes form a classification scheme that distinguishes metropolitan counties by the population size of their metro area, and nonmetropolitan counties by degree of urbanization and adjacency to a metro area." Counties are coded on 1-9 scale where one is the most urban and 9 is the most rural. Few reliable scales of rurality exist below the county level. This creates particular challenges for election jurisdictions that operate at the sub-county level, thus our plan to link these to the USDA's Rural-Urban Commuting Area (RUCA) codes [@Cromartie:2008]. The RUC codes are shown in the map to the right.
 
 ```{r maps, eval=FALSE, fig.align='center', fig.width=10, message=FALSE, warning=FALSE, include=FALSE}
 p <- plot_usmap(data = ruc, values = "rucc_2013", color = "black",
@@ -135,7 +135,7 @@ ggsave(filename = "ruc_map.png", plot = p, width = 14, height = 14,
        units = "in", dpi = 600)
 
 p <- ggplot(status, aes(state=state, fill=status)) +
-      geom_statebins() +
+      geom_statebins(lbl_size = 6) +
       # scale_fill_viridis(discrete = T) +
   scale_fill_manual(name = "Status:", values = c("#29b408", "#cc092f")) +
   labs(title = "Current Coding Progress") +
@@ -149,12 +149,12 @@ ggsave(filename = "status_map.png", plot = p, width = 14, height = 10,
 
 p <- items %>% 
   ggplot(aes(ruc, level)) +
-  geom_line(color = "#cc092f", size = 2) +
+  geom_line(color = "#cc092f", linewidth = 2) +
   facet_grid(vars(item), , switch = "y") +
   scale_x_continuous(breaks = c(1,2,3,4,5,6,7,8,9), labels = c("Most Urban", "2", "3", "4", "5", "6", "7", "8", "Most Rural")) +
   scale_y_continuous(labels = function(x) paste0(x, "%")) +
-  labs(x = "Rural-Urban Continuum Code", y = "Percent that Include", title = "Variation in Online Tools Across One Dimension of Rurality", caption = "Note: This includes only the 34 states coded thus far. Results are subject to change.") +
-  theme_ipsum() + theme(strip.placement = "outside", plot.title = element_text(size = 32), plot.caption = element_text(size = 18), text = element_text(size=20))
+  labs(x = "Rural-Urban Continuum Code", y = "Percent that Include", title = "Variation in Online Tools Across One Dimension of Rurality", caption = "Note: This includes only the 46 states coded thus far. Results are subject to change.") +
+  theme_ipsum() + theme(strip.placement = "outside", plot.title = element_text(size = 32), plot.caption = element_text(size = 18), text = element_text(size=20), strip.text.y = element_text(size = 18), axis.title.y = element_text(size = 20), axis.title.x = element_text(size = 20))
 p
 ggsave(filename = "items.png", plot = p, width = 13, height = 14,
        units = "in", dpi = 600)
@@ -167,12 +167,12 @@ ggsave(filename = "items.png", plot = p, width = 13, height = 14,
 
 # What Are We Learning?
 
-So far it is clear, perhaps unsurprisingly, that as jurisdictions become more rural they offer less to voters in terms on online tools. Sometimes there is significant variation at the state level in terms of centralized support for web hosting and links to state-level resources, but this is far from ubiquitous. This underscores both a lack of support for these types of tools in rural jurisdictions and a distinct election administration experience between urban and rural jurisdictions. It also corroborate what we have learned elsewhere in our project: rural election officials face an uphill battle when it comes to communicating with voters. 
+So far it is clear, perhaps unsurprisingly, that as jurisdictions become more rural they offer less to voters in terms on online tools. Sometimes there is significant variation at the state level in terms of centralized support for web hosting and links to state-level resources, but this is far from ubiquitous. This underscores both a lack of support for these types of tools in rural jurisdictions and a distinct election administration experience between urban and rural jurisdictions. It also corroborates what we have learned elsewhere in our project: rural election officials face an uphill battle when it comes to communicating with voters. 
 
 # Example Findings
 
 <center>
-![](items.png){width=96%}
+![](items.png){width=94%}
 </center>
 
 # Acknowledgements
